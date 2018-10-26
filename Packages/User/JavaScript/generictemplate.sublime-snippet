@@ -1,0 +1,30 @@
+<snippet>
+    <content><![CDATA[
+Template.${1:generic}.onCreated(function () {
+
+});
+
+Template.${1:generic}.onDestroyed(function () {
+
+});
+
+Template.${1:generic}.onRendered(function () {
+
+});
+
+Template.${1:generic}.helpers({
+
+});
+
+Template.${1:generic}.events({
+    "click [attr]": function (e) {
+        var attr = e.currentTarget.getAttribute("attr");
+
+    },
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>generic</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

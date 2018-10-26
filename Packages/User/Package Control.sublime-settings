@@ -1,0 +1,45 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"1337 Color Scheme",
+		"A File Icon",
+		"AdvancedNewFile",
+		"Babel",
+		"Better CoffeeScript",
+		"Cucumber",
+		"DocBlockr",
+		"Ecmascript Syntax",
+		"Elixir",
+		"Elm Language Support",
+		"Emmet",
+		"Gherkin (Cucumber) Formatter",
+		"Jade",
+		"JSONLint",
+		"JsPrettier",
+		"JSX",
+		"LESS",
+		"LineJumper",
+		"MoveTab",
+		"Package Control",
+		"PackageResourceViewer",
+		"Pug",
+		"React Templates",
+		"ReactJS",
+		"SideBarEnhancements",
+		"Slime",
+		"Stylus",
+		"SublimeLinter",
+		"SublimeLinter-eslint",
+		"SublimeLinter-pep8",
+		"SublimeLinter-pyflakes",
+		"TrailingSpaces",
+		"TypeScript",
+		"TypeScript Syntax",
+		"TypescriptCompletion",
+		"Vue Syntax Highlight"
+	]
+}

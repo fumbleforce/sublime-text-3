@@ -1,0 +1,26 @@
+<snippet>
+  <content><![CDATA[
+import React from "react";
+
+
+class ${1:Name} extends React.Component {
+  
+  render () {
+    const {  } = this.props;
+    
+    return (
+      <div>
+        ${1:Name}Component
+      </div>
+    );
+  }
+}
+
+export default ${1:Name};
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>component</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

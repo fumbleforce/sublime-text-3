@@ -1,0 +1,30 @@
+<snippet>
+  <content><![CDATA[
+import React, {PropTypes} from "react";
+
+import {
+  Segment,
+} from "meteor/hubroedu:semantic-react";
+
+const ${1:classname} = class extends React.Component {
+  render () {
+    return (
+      <div>
+        
+      </div>
+    );
+  }
+};
+
+${1:className}.propTypes = {
+
+};
+
+export default ${1:className};
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>dumb</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

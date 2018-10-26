@@ -1,0 +1,75 @@
+{
+	"always_show_minimap_viewport": true,
+	"auto_complete_commit_on_tab": true,
+	"bold_folder_labels": true,
+	"caret_extra_bottom": 1,
+	"caret_extra_top": 1,
+	"caret_extra_width": 1,
+	"caret_style": "blink",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"fade_fold_buttons": false,
+	"find_exclude_patterns":
+	[
+		"*/.sass-cache/*",
+		"*/.git/*",
+		"*/logs/*",
+		"*/lib/*",
+		"*/dist/*",
+		"_build/*",
+		"*.map.*",
+		"*.min.*",
+		"*.map",
+		"*/node_modules/*",
+		"*deps/*"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		"*/.meteor/local",
+		".idea",
+		".git",
+		".hg",
+		"CVS",
+		"*deps/*",
+		"*.map.*",
+		"*.map$",
+		"_build/*",
+		"*/node_modules/*",
+		".sass-cache"
+	],
+	"font_size": 13,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"JSX",
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 0,
+	"line_padding_top": 0,
+	"overlay_scroll_bars": "enabled",
+	"replacements":
+	{
+		"js_class":
+		{
+			"case": false,
+			"find": " class=\"",
+			"greedy": true,
+			"replace": " className=\""
+		}
+	},
+	"save_on_focus_lost": false,
+	"scroll_speed": 0,
+	"show_encoding": true,
+	"show_line_endings": true,
+	"smart_indent": true,
+	"tab_size": 2,
+	"theme": "Adaptive.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space": false,
+	"word_wrap": true
+}

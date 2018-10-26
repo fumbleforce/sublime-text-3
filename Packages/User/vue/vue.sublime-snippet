@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+<template lang="pug">
+  #${1:name}
+    
+</template>
+
+<script>
+  export default {
+    name: "${1:name}",
+  }
+</script>
+
+<style scoped lang="stylus">
+  
+</style>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>vue</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

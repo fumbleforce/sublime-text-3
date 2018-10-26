@@ -1,0 +1,31 @@
+<snippet>
+  <content><![CDATA[
+/* eslint-env mocha */
+import { resetDatabase } from "meteor/xolvio:cleaner";
+import { seedDatabase } from "meteor/manti:fixtures";
+import { Meteor } from "meteor/meteor";
+import { Factory } from "meteor/factory";
+import { sinon } from "meteor/practicalmeteor:sinon";
+import { chai } from "meteor/practicalmeteor:chai";
+const assert = chai.assert;
+
+
+describe("${1:module}", () => {
+  beforeEach(() => {
+    resetDatabase();
+    seedDatabase();
+  });
+  
+  describe("${2:function}", function () {
+    it("${3:goal}", function () {
+      
+    });
+  });
+});
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>test</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

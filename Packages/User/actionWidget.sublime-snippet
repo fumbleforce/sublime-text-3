@@ -1,0 +1,46 @@
+<snippet>
+  <content><![CDATA[
+import React, {PropTypes} from "react";
+import autoBind from "react-autobind";
+import { createContainer } from "meteor/react-meteor-data";
+import { __ } from "meteor/hubroedu:translation";
+import ActionWidget from "/imports/core/ui/components/ActionWidget";
+
+const ${1:component} = class extends React.Component {
+  constructor (props) {
+    super(props);
+    autoBind(this);
+  }
+  
+  render () {
+    const {
+    
+    } = this.props;
+  
+    return (
+      <ActionWidget>
+        <div>
+          <Header>
+            {__("widgets.${1:component}")}
+          </Header>
+        </div>
+      </ActionWidget>
+    );
+  }
+};
+
+${1:component}.propTypes = {};
+
+export default createContainer((props) => {
+  
+  return {
+    ...props,
+  };
+}, ${1:component});
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>actionWidget</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

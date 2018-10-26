@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[
+${1:name} = Astro.Class({
+  name: "${1:name}",
+  collection: new Mongo.Collection("${2:collection}"),
+  
+  fields: {
+    ${3:field}
+  },
+  
+  events: {
+    
+  },
+  
+  methods: {
+    
+  },
+  
+  behaviors: ['timestamp']
+});
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>astro</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,40 @@
+<snippet>
+  <content><![CDATA[
+import React from "react";
+import autoBind from "react-autobind";
+import { createContainer } from "meteor/react-meteor-data";
+
+const ${1:name}Component = () => (
+  <div>
+    ${1:name}Component
+  </div>
+);
+
+const DataContainer = createContainer(props => {
+  return {
+    ...props,
+  };
+}, ${1:name}Component);
+
+export default class ${1:name}StateContainer extends React.Component {
+  constructor (params) {
+    super(params);
+    autoBind(this);
+    
+    this.state = {};
+  }
+
+  render () {
+    return <DataContainer
+      {...this.props}
+      {...this.state}
+    />;
+  }
+}
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>stateful</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>
